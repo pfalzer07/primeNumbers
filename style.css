@@ -1,0 +1,53 @@
+body {
+  background-image: url('./cover.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.element {
+  min-width: 6rem;
+  min-height: 2rem;
+  background: rgb(168, 168, 168);
+  background: linear-gradient(13deg, rgba(168, 168, 168, 1) 0%, rgba(167, 229, 244, 1) 100%);
+  border-radius: 40%;
+  padding: 0.15rem;
+  border: solid 2px ivory;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-basis: 2%;
+  margin: 0.5rem;
+  font-size: 35px;
+  text-align: center;
+}
+
+.input {
+  font-size: 35;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+/* .button {
+  border-radius: 50%;
+  width: 10rem;
+  border: solid 0.2rem ivory;
+  height: 4rem;
+  margin: 1rem;
+} */
